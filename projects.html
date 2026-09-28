@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects · Brandy Perry Photography</title>
+  <meta name="description" content="Editorial, conceptual and abstract photography series by Brandy Perry." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="dock glass-surface" aria-label="Primary">
+      <a href="index.html" class="dock__brand">Brandy Perry<span> Photography</span></a>
+
+      <ul class="dock__links">
+        <li><a href="index.html" class="dock__link">Home</a></li>
+        <li><a href="projects.html" class="dock__link active" aria-current="page">Projects</a></li>
+        <li><a href="prints.html" class="dock__link">Prints Store</a></li>
+        <li><a href="about.html" class="dock__link">About</a></li>
+      </ul>
+
+      <button type="button" class="dock__menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </nav>
+
+    <div class="dock__mobile glass-surface" id="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active" aria-current="page">Projects</a>
+      <a href="prints.html">Prints Store</a>
+      <a href="about.html">About</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container pb-28">
+      <header class="page-header reveal">
+        <p class="eyebrow">Archive</p>
+        <h1 class="page-header__title display text-balance">Projects</h1>
+        <p class="page-header__lead">
+          Six series spanning commissioned editorial and self-initiated
+          conceptual work. Each one opens with the concept, the exact capture
+          data, and a lighting plan you could rebuild.
+        </p>
+      </header>
+
+      <div class="mt-16 reveal">
+        <div class="filters" id="project-filters" role="group" aria-label="Filter projects by category">
+          <button type="button" class="filter-btn active" data-filter="all">All work</button>
+          <button type="button" class="filter-btn" data-filter="editorial">Editorial</button>
+          <button type="button" class="filter-btn" data-filter="conceptual">Conceptual</button>
+          <button type="button" class="filter-btn" data-filter="abstract">Abstract</button>
+        </div>
+        <p class="mt-6 text-ash" id="project-count" aria-live="polite">6 series shown</p>
+      </div>
+
+      <div class="masonry mt-8" id="project-grid">
+        <article class="masonry__item reveal" data-category="editorial">
+          <div class="project-card" data-lightbox="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80">
+            <div class="project-card__media aspect-3-2">
+              <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80" alt="Dark mountain range under a heavy overcast sky at dusk" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__title">Obsidian Hours</p>
+                <p class="project-card__meta">2025 · Editorial · Reykjavík</p>
+              </div>
+              <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="masonry__item reveal" data-category="conceptual">
+          <div class="project-card" data-lightbox="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=1600&q=80">
+            <div class="project-card__media aspect-3-4">
+              <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80" alt="Abstract refracted light through textured glass" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__title">Glasshouse Anatomy</p>
+                <p class="project-card__meta">2025 · Conceptual · Rotterdam</p>
+              </div>
+              <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="masonry__item reveal" data-category="editorial">
+          <div class="project-card" data-lightbox="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1600&q=80">
+            <div class="project-card__media aspect-3-2">
+              <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=800&q=80" alt="Empty room with a single window casting a hard shadow" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__title">The Weight of Rooms</p>
+                <p class="project-card__meta">2024 · Editorial · Turin</p>
+              </div>
+              <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="masonry__item reveal" data-category="abstract">
+          <div class="project-card" data-lightbox="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80">
+            <div class="project-card__media aspect-3-2">
+              <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=800&q=80" alt="Abstract streaks of light on a black field" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__title">Signal Decay</p>
+                <p class="project-card__meta">2024 · Abstract · Berlin</p>
+              </div>
+              <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="masonry__item reveal" data-category="abstract">
+          <div class="project-card" data-lightbox="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80">
+            <div class="project-card__media aspect-3-4">
+              <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80" alt="Vast pale landscape reduced to abstract texture" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__title">Salt Index</p>
+                <p class="project-card__meta">2023 · Abstract · Bolivia</p>
+              </div>
+              <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="masonry__item reveal" data-category="conceptual">
+          <div class="project-card" data-lightbox="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80">
+            <div class="project-card__media aspect-3-4">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Moody low-key portrait of a face half in shadow" loading="lazy" />
+            </div>
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__title">Inheritance</p>
+                <p class="project-card__meta">2023 · Conceptual · Porto</p>
+              </div>
+              <svg class="project-card__arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <p class="footer__brand">Brandy Perry Photography</p>
+          <p class="footer__desc">
+            Editorial and conceptual photography. Editions printed in-house on
+            archival stock.
+          </p>
+          <a href="mailto:hello@brandyperryphotography.com" class="footer__email">hello@brandyperryphotography.com</a>
+        </div>
+
+        <nav aria-label="Work">
+          <p class="footer__heading eyebrow">Work</p>
+          <ul class="footer__links">
+            <li><a href="projects.html">All projects</a></li>
+            <li><a href="projects.html">Obsidian Hours</a></li>
+            <li><a href="projects.html">Glasshouse Anatomy</a></li>
+            <li><a href="projects.html">Signal Decay</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Store">
+          <p class="footer__heading eyebrow">Store</p>
+          <ul class="footer__links">
+            <li><a href="prints.html">All prints</a></li>
+            <li><a href="prints.html">Salt Index 04</a></li>
+            <li><a href="prints.html">Obsidian Ridge</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Studio">
+          <p class="footer__heading eyebrow">Studio</p>
+          <ul class="footer__links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html#exhibitions">Exhibitions</a></li>
+            <li><a href="about.html#booking">Booking enquiry</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 Brandy Perry Photography. All rights reserved.</p>
+        <p>Demonstration store — no payments are processed.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close preview">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <img class="lightbox__img" id="lightbox-img" src="" alt="" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

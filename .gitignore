@@ -1,0 +1,4 @@
+# Static site — nothing to build or install
+.DS_Store
+*.log
+.next/
